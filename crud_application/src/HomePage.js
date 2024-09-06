@@ -6,7 +6,7 @@ const Homepage = ({ users, deleteUser }) => {
     return (
         <div className='homepage'>
             <div className='homepage-header'>
-                <h1>User Management</h1>
+                <h1>Users</h1>
                 <Button variant="contained" color="primary" className='add-button'>
                     <Link to="/add-user" style={{ textDecoration: 'none', color: 'white' }}>
                         Add User

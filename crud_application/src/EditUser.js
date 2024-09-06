@@ -26,8 +26,8 @@ const EditUser = ({ users, updateUser }) => {
   };
 
   return (
-    <Container maxWidth="sm" style={{ padding: '20px' }}>
-      <Typography variant="h4" component="h2" gutterBottom>
+    <Container maxWidth="sm"  className='container'>
+      <Typography variant="h4" component="h2" gutterBottom sx={{textAlign:'center',fontWeight:'bold'}}>
         Edit User
       </Typography>
       <Box component="form" onSubmit={handleFormSubmit} sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
