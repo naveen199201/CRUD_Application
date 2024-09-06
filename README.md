@@ -8,7 +8,7 @@ The first thing to do is to clone the repository:
 $ git clone https://github.com/naveen199201/CRUD_Application.git
 $ cd crud_application
 ```
-
+```
 $ npm install
 ```
 Start the app by using the following command
